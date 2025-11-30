@@ -229,8 +229,8 @@ export const ServicesSection: React.FC = () => {
                 </h4>
                 
                 <div className="grid grid-cols-1 gap-6 relative">
-                  {/* Connecting Line */}
-                  <div className="absolute left-[19px] top-4 bottom-4 w-0.5 bg-public-light hidden sm:block"></div>
+                  {/* Connecting Line - Centered */}
+                  <div className="absolute left-5 -translate-x-1/2 top-4 bottom-4 w-0.5 bg-public-light hidden sm:block"></div>
 
                   {selectedService.infographicSteps.map((step, idx) => (
                     <div key={idx} className="relative flex items-start gap-4 group">
