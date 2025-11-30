@@ -16,7 +16,7 @@
     <!-- Anime.js V4 (Required) -->
     <script src="https://cdn.jsdelivr.net/npm/animejs/dist/bundles/anime.umd.min.js"></script>
 
-    <!-- Tailwind CSS -->
+    <!-- Tailwind CSS (Runtime) -->
     <script src="https://cdn.tailwindcss.com"></script>
     
     <!-- Tailwind Config -->
@@ -52,6 +52,7 @@
         }
       }
     </script>
+
     <style>
       body {
         background-color: #121212;
@@ -72,19 +73,21 @@
         background: #333;
       }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react-dom": "https://aistudiocdn.com/react-dom@^19.2.0",
-    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
-  }
-}
-</script>
+
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://aistudiocdn.com/react@^19.2.0",
+        "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+        "react/": "https://aistudiocdn.com/react@^19.2.0/",
+        "react-dom": "https://aistudiocdn.com/react-dom@^19.2.0",
+        "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+      }
+    }
+    </script>
 </head>
   <body>
     <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
